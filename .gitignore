@@ -1,0 +1,34 @@
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+# Ignore Visual Studio folders
+.vs/
+*.vcxproj.user
+
+# Ignore intermediate build folders
+build/
+out/
+bin/
+obj/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore precompiled headers & large files
+*.ipch
+*.pch
+*.obj
+*.exe
+*.log
+
+
