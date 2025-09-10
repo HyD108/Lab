@@ -5,7 +5,7 @@
 #include  <glm/gtx/string_cast.hpp>
 
 int main() {
-
+    //no
     glm::vec3 p(1.f, 4.f, -5.f);
     glm::vec3 v(5.f, 1.f, 4.f);
     glm::vec3 p_moved = p + v;
