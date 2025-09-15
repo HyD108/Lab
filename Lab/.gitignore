@@ -30,5 +30,31 @@ CMakeFiles/
 *.obj
 *.exe
 *.log
+# Build output
+*.exe
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.cache
+*.tlog
+*.log
+*.user
+*.VC.db
+
+# VS folders
+.vs/
+out/
+build/
+
+# CMake intermediate
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
 
 

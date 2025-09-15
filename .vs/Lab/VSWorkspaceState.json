@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "Lab\\out\\build\\x64-debug",
+      "Lab\\out\\install\\x64-debug",
+      "Lab\\out\\build\\x64-release",
+      "Lab\\out\\install\\x64-release",
+      "Lab\\out\\build\\x86-debug",
+      "Lab\\out\\install\\x86-debug",
+      "Lab\\out\\build\\x86-release",
+      "Lab\\out\\install\\x86-release"
+    ]
+  }
+}
