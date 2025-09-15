@@ -10,7 +10,7 @@ int main()
 
 {
 
-	const double DEGREES_TO_RADIANS = glm::pi<float>() / 180.0;
+	/*const double DEGREES_TO_RADIANS = glm::pi<float>() / 180.0;
 
 	const double RADIANS_TO_DEGREES = 180.0 / glm::pi<float>();
 
@@ -26,7 +26,21 @@ int main()
 
 	float deg = glm::acos(c) * RADIANS_TO_DEGREES;
 
-	std::cout << " " << deg << std::endl;
+	std::cout << " " << deg << std::endl;*/
+
+	glm::vec3 v(1, 2, -1);
+
+	glm::vec3 u(0, 1, 0);
+
+	glm::vec3 b = glm::dot(v, u) * u;
+
+	glm::vec3 a = v - b;
+
+	std::cout << "a: " << glm::to_string(a) << std::endl;
+
+	std::cout << "b: " << glm::to_string(b) << std::endl;
+
+	return 0;
 
 	return 0;
 
